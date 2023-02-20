@@ -1,5 +1,7 @@
 # sneaky_snake
 
+Play the game online [here](blackgrain.dk/games/sneaky_snake/).
+
 ## Project Setup
 
 ```sh
