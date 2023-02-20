@@ -18,8 +18,8 @@ function play(event) {
 </script>
 
 <template>
-  <h1>Enter your name</h1>
-  <input v-model="player_name" placeholder="Sneaky Snake Jimmy" />
-  <button v-if="is_not_empty" @click="play">Play Game as "{{ player_name }}"</button>
-  <button v-else>Enter name</button>
+	<h1>Enter your name</h1>
+	<input v-model="player_name" placeholder="Sneaky Snake Jimmy" />
+	<button v-if="is_not_empty" @click="play">Play Game as "{{ player_name }}"</button>
+	<button v-else>Enter name</button>
 </template>

@@ -25,10 +25,10 @@ scores.value = store.highscore.slice(0, 10)
 </script>
 
 <template>
-  <h1>Highscores</h1>
-  <ul>
-    <li v-for="score in scores">
-      {{ score.name }} {{ score.score }}
-    </li>
-  </ul>
+	<h1>Highscores</h1>
+	<ul>
+		<li v-for="score in scores">
+		{{ score.score }} <code>// {{ score.name }}</code>
+		</li>
+	</ul>
 </template>

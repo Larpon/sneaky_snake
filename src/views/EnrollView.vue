@@ -3,7 +3,7 @@ import Enroll from '../components/Enroll.vue'
 </script>
 
 <template>
-  <div class="wrapper">
-    <Enroll />
-  </div>
+	<div class="wrapper">
+		<Enroll />
+	</div>
 </template>

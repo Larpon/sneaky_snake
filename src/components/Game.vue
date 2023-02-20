@@ -141,13 +141,13 @@ const onPress = (e) => {
 </script>
 
 <template>
-  <h1>Be sneaky like a snake {{ player_name }}</h1>
-  <p><button @click="startGame">Start</button> Time: {{ new Date(play_time.toFixed(0) * 1000).toISOString().slice(11, 19) }} Score {{ tweened_score.score.toFixed(0) }}</p>
-  <canvas tabindex="0" autofocus @keydown.stop="onPress" ref="canvas_element" width="200" height="150"></canvas>
+	<h1>Be sneaky like a snake {{ player_name }}</h1>
+	<p><button @click="startGame">Start</button> Time: {{ new Date(play_time.toFixed(0) * 1000).toISOString().slice(11, 19) }} Score {{ tweened_score.score.toFixed(0) }}</p>
+	<canvas tabindex="0" autofocus @keydown.stop="onPress" ref="canvas_element" width="200" height="150"></canvas>
 </template>
 
 <style scoped>
 canvas {
-  background-color: #efefef;
+	background-color: #efefef;
 }
 </style>
